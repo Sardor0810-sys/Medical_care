@@ -452,6 +452,10 @@ button {
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #1BA0AB;
+  -webkit-animation-name: header__text;
+          animation-name: header__text;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 .header__title {
   font-size: 58px;
@@ -459,17 +463,29 @@ button {
   letter-spacing: 0.2px;
   color: #252B42;
   width: 542px;
+  -webkit-animation-name: header__text;
+          animation-name: header__text;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 .header__text {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #737373;
+  -webkit-animation-name: header__text;
+          animation-name: header__text;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 .header__form {
   display: flex;
   align-items: center;
   margin-top: 40px;
+  -webkit-animation-name: header__text;
+          animation-name: header__text;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 .header__button {
   outline: none;
@@ -488,6 +504,13 @@ button {
   margin-left: 10px;
   transition: 0.5s linear;
 }
+.header__img {
+  width: 700px;
+  -webkit-animation-name: header__img;
+          animation-name: header__img;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
 .header__button:hover {
   background-color: #1BA0AB;
   color: #FFFFFF;
@@ -496,6 +519,39 @@ button {
   transform: translateX(40px);
 }
 
+@-webkit-keyframes header__img {
+  from {
+    width: 80px;
+  }
+  to {
+    width: 700px;
+  }
+}
+
+@keyframes header__img {
+  from {
+    width: 80px;
+  }
+  to {
+    width: 700px;
+  }
+}
+@-webkit-keyframes header__text {
+  from {
+    transform: translate(500px);
+  }
+  to {
+    transform: translate(0px);
+  }
+}
+@keyframes header__text {
+  from {
+    transform: translate(500px);
+  }
+  to {
+    transform: translate(0px);
+  }
+}
 .header .container {
   display: flex;
   justify-content: space-between;

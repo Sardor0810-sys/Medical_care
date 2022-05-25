@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/main.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -95,7 +96,9 @@
                 </a>
             </div>
             <div class="page__right">
-                <div class="page__card">
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="page__card">
                     <img src="./image/page_card-.png" alt="" class="pgae__img">
                     <h3 class="page__subtitle">Book now</h3>
                     <div class="page__span_">
@@ -106,7 +109,9 @@
                     </p>
                 </div>
             <div class="page__right">
-                <div class="page__card">
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="page__card">
                     <img src="./image/page_card.png" alt="" class="pgae__img">
                     <h3 class="page__subtitle">Health Queries</h3>
                     <div class="page__span_">
@@ -155,7 +160,10 @@
                 the two major realms of Classical physics: Newtonian mechanics 
             </p> 
             <div class="section__box">
-                <div class="section__left">
+                <div data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+                 class="section__left">
                     <div class="section__card">
                         <a href="" class="section__sale">
                             sale
@@ -221,7 +229,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="section__right">
+                <div data-aos="fade-left"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+                 class="section__right">
                     <div class="section__card">
                         <a href="" class="section__sale">
                             sale
@@ -607,5 +618,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

@@ -9,6 +9,8 @@
         line-height: 24px;
         letter-spacing: 0.1px;
         color: #1BA0AB;
+        animation-name: header__text;
+        animation-duration: 4s;
     }
     &__title{
         font-size: 58px;
@@ -16,17 +18,24 @@
         letter-spacing: 0.2px;
         color: #252B42;
         width: 542px;
+        animation-name: header__text;
+        animation-duration: 4s;
     }
+    
     &__text{
         font-size: 20px;
         line-height: 30px;
         letter-spacing: 0.2px;
         color: #737373;
+        animation-name: header__text;
+        animation-duration: 4s;
         }
     &__form{
         display: flex;
         align-items: center;
         margin-top: 40px;
+        animation-name: header__text;
+        animation-duration: 4s;
     }
     &__button{
         outline: none;
@@ -45,12 +54,33 @@
         margin-left: 10px;
         transition: 0.5s linear;
     }
+    &__img{
+        width: 700px;
+        animation-name: header__img;
+        animation-duration: 5s;
+    }
     &__button:hover{
         background-color: #1BA0AB;
         color: #FFFFFF;
     }
     &__image{
         transform: translateX(40px);
+    }
+}
+@keyframes header__img{
+    from{
+        width: 80px;
+    }
+    to{
+        width: 700px;
+    }
+}
+@keyframes header__text{
+    from{
+        transform: translate(500px);
+    }
+    to{
+        transform: translate(0px);
     }
 }
 .header .container{
