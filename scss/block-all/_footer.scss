@@ -1,0 +1,33 @@
+.footer{
+
+
+    &__top{
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        margin-bottom: 10px;
+    }
+    &__link{
+        
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        align-items: center;
+    }
+    &__link ion-icon{
+        font-size: 22px;
+        color: #1BA0AB;
+    }
+}

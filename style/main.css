@@ -791,6 +791,7 @@ button {
   color: #FFFFFF;
   background: #1BA0AB;
   transform: scale(0.95);
+  margin-right: 9px;
 }
 
 .impression {
@@ -999,4 +1000,33 @@ button {
 }
 .join__button:hover {
   background-color: #07838b;
+}
+
+.footer__top {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.footer__title {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  margin-bottom: 10px;
+}
+.footer__link {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  align-items: center;
+}
+.footer__link ion-icon {
+  font-size: 22px;
+  color: #1BA0AB;
 }/*# sourceMappingURL=main.css.map */
