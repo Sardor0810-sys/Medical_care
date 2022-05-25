@@ -25,9 +25,33 @@
         letter-spacing: 0.2px;
         color: #737373;
         align-items: center;
+        transition: 0.15s linear;
+    }
+    &__link:hover{
+        text-shadow: 0.5px 0.5px 0.5px #000;
+        transform: scale(1.05);
     }
     &__link ion-icon{
         font-size: 22px;
         color: #1BA0AB;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #FAFAFA;
+        padding: 25px 0;
+    }
+    &__text{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+    &__icon{
+        font-size: 23px;
+        color: #1BA0AB;
+        margin-left: 30px;
     }
 }

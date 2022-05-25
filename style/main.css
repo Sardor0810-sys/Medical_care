@@ -1025,8 +1025,32 @@ button {
   letter-spacing: 0.2px;
   color: #737373;
   align-items: center;
+  transition: 0.15s linear;
+}
+.footer__link:hover {
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  transform: scale(1.05);
 }
 .footer__link ion-icon {
   font-size: 22px;
   color: #1BA0AB;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FAFAFA;
+  padding: 25px 0;
+}
+.footer__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.footer__icon {
+  font-size: 23px;
+  color: #1BA0AB;
+  margin-left: 30px;
 }/*# sourceMappingURL=main.css.map */
