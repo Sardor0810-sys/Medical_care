@@ -791,4 +791,29 @@ button {
   color: #FFFFFF;
   background: #1BA0AB;
   transform: scale(0.95);
+}
+
+.impression {
+  padding-top: 160px;
+  padding-bottom: 95px;
+}
+.impression__word {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #1BA0AB;
+}
+.impression__title {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin: 10px 0;
+}
+.impression__text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
 }/*# sourceMappingURL=main.css.map */
