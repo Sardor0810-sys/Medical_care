@@ -69,5 +69,9 @@
         width: 22px;
         height: 18px;
         font-size: 22px;
+        transition: 0.25s linear;
+    }
+    &__link:hover{
+        color: #44868b;
     }
 }
